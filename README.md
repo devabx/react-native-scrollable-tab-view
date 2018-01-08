@@ -1,5 +1,11 @@
 
 ## react-native-scrollable-tab-view
+this package is a forked from https://github.com/skv-headless/react-native-scrollable-tab-view
+why fork?
+
+1. to support latest RN the public package is currently outdated
+2. it maintains 0.6 version prevent us from upgrading because of the sliding bug in android
+
 [![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)
 
 This is probably my favorite navigation pattern on Android, I wish it
