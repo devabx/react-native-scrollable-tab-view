@@ -1,6 +1,6 @@
 {
-  "name": "react-native-scrollable-tab-view",
-  "version": "0.8.1",
+  "name": "@devabx/react-native-scrollable-tab-view",
+  "version": "0.8.2",
   "description": "",
   "main": "index.js",
   "scripts": {
