@@ -7,17 +7,15 @@ const {
   Dimensions,
   View,
   Animated,
-  ScrollView,
   Platform,
   StyleSheet,
-  ViewPagerAndroid,
-  InteractionManager,
 } = ReactNative;
 const TimerMixin = require('react-timer-mixin');
 
 const SceneComponent = require('./SceneComponent');
 const DefaultTabBar = require('./DefaultTabBar');
 const ScrollableTabBar = require('./ScrollableTabBar');
+const ViewPagerAndroid = require('@react-native-community/viewpager')
 
 const AnimatedViewPagerAndroid = Platform.OS === 'android' ?
   Animated.createAnimatedComponent(ViewPagerAndroid) :
